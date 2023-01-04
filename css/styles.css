@@ -116,11 +116,12 @@ nav ul {
 .main-phrase {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   color: rgba(255, 255, 255, 1);
   text-align: center;
   margin-bottom: 40px;
   padding-top: 106px;
+  letter-spacing: 0.06em;
 }
 
 .main-button {
@@ -147,6 +148,7 @@ nav ul {
 
 .main-content {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
+  display: flex;
 }
 
 .content-title {
@@ -165,12 +167,34 @@ nav ul {
   color: rgba(117, 117, 117, 1);
 }
 
+.what-we-do-box {
+  padding-top: 94px;
+}
+
+.what-we-do-gallery {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.what-we-do-img:not(:last-child) {
+  margin-right: 30px;
+}
+
 .article-tittle {
   font-weight: 700;
   font-size: 36px;
   line-height: 42.19px;
   letter-spacing: 3%;
   color: rgba(33, 33, 33, 1);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.team {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
 }
 
 .worker-description {
