@@ -58,12 +58,11 @@ body {
 }
 
 .navigation-list {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: space-between;
   width: 254px;
   margin-left: 94px;
-  list-style-type: none;
+  list-style: none;
 }
 
 .navigation-item {
@@ -71,7 +70,7 @@ body {
   font-size: 14px;
   text-decoration: none;
   color: rgba(33, 33, 33, 1);
-  list-style-type: none;
+  list-style: none;
 }
 
 .navigation-item:hover,
@@ -80,7 +79,6 @@ body {
 }
 
 .contact-navigation {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
   display: flex;
   margin-left: 371px;
 }
@@ -106,7 +104,6 @@ body {
 }
 
 .main-phrase-box {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -133,7 +130,6 @@ body {
   padding: 10px 41px 10px 42px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   color: rgba(255, 255, 255, 1);
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 16px;
   cursor: pointer;
@@ -146,7 +142,6 @@ body {
 }
 
 .main-content {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
   display: flex;
 }
 
@@ -158,7 +153,6 @@ body {
 }
 
 .content-text {
-  font-weight: 400;
   font-size: 14px;
   color: rgba(117, 117, 117, 1);
   line-height: 1.71;
@@ -171,7 +165,7 @@ body {
 .what-we-do-gallery {
   display: flex;
   justify-content: space-between;
-  list-style-type: none;
+  list-style: none;
   padding-left: 0;
 }
 
@@ -190,13 +184,12 @@ body {
 
 .team-box {
   background-color: rgba(245, 244, 250, 1);
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
 .team {
   display: flex;
   justify-content: space-between;
-  list-style-type: none;
+  list-style: none;
   padding-left: 0;
 }
 
@@ -209,7 +202,6 @@ body {
 }
 
 .worker-description {
-  font-weight: 400;
   font-size: 16px;
   color: rgba(117, 117, 117, 1);
   display: flex;
@@ -233,7 +225,7 @@ body {
 }
 
 .address-list {
-  list-style-type: none;
+  list-style: none;
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
@@ -245,16 +237,12 @@ body {
 }
 
 .corp-address {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-weight: 400;
   font-size: 14px;
   font-style: normal;
   color: rgba(255, 255, 255, 1);
 }
 
 .footer-contact {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-weight: 400;
   font-size: 14px;
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
@@ -266,7 +254,7 @@ body {
 .nav-buttons {
   display: flex;
   justify-content: center;
-  list-style-type: none;
+  list-style: none;
   margin: 0;
   padding: 0;
 }
@@ -278,7 +266,6 @@ body {
 .nav-button {
   border-radius: 4px;
   background-color: rgba(245, 244, 250, 1);
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 16px;
   padding: 6px 22px 6px 22px;
@@ -300,7 +287,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  list-style-type: none;
+  list-style: none;
   margin: 50px 0 0 0;
   padding: 0;
 }
@@ -321,8 +308,6 @@ body {
 }
 
 .project-description {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-weight: 400;
   font-size: 16px;
   color: rgba(117, 117, 117, 1);
   padding: 20px 24px;
